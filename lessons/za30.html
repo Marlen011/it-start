@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 30</title>
+
+    <style>
+        #teacher_marlen {
+            font-size: 20px;
+        }
+        .student {
+            font-size: 30px;
+        }
+
+        .circle-container {
+            display: flex;
+            /* Про space-beetween и space around - логические обьяснение */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle {
+            width: 150px;
+            height: 150px;
+            background-color: #3498db;
+            border-radius: 50%;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle h2 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        .circle p {
+            margin: 10px 0 0;
+            font-size: 0.9em;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="https://tproger.ru/translations/how-css-flexbox-works/">Что такое flex?</a>
+
+    <h2>Рассказ про классы и айди</h2>
+
+    <!-- mis1 -->
+    <div id='teacher_marlen'>My name is Marlen</div>
+
+    <div class="student"><b>Тут все ученики</b><br>Eris <br>Milize <br>Eleina</div>
+
+    <!-- mis2 -->
+    <div class="circle-container">
+        <div class="circle">
+          <h2>Игра 1</h2>
+          <p>Краткое описание игры 1.</p>
+        </div>
+        <div class="circle">
+          <h2>Игра 2</h2>
+          <p>Краткое описание игры 2.</p>
+        </div>
+        <div class="circle">
+          <h2>Игра 3</h2>
+          <p>Краткое описание игры 3.</p>
+        </div>
+        <div class="circle">
+          <h2>Игра 4</h2>
+          <p>Краткое описание игры 4.</p>
+        </div>
+        <div class="circle">
+          <h2>Игра 5</h2>
+          <p>Краткое описание игры 5.</p>
+        </div>
+        <div class="circle">
+          <h2>Игра 6</h2>
+          <p>Краткое описание игры 6.</p>
+        </div>
+      </div>
+    
+</body>
+</html>
